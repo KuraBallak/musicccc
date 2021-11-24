@@ -15,11 +15,11 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-   .setImage(`https://cdn.discordapp.com/attachments/827166558714593290/830464718623080488/standard_8.gif`)
-   .setDescription("<a:rast:813403866472251399> **[Click here](https://discord.com/oauth2/authorize?client_id=807289119193432125&permissions=8&scope=bot) to invite the bot.**")
+   .setImage(`https://images-ext-1.discordapp.net/external/oyDRWRH1m1r_yoFxpNGLpthFvCjeWpmCR32AlAnyJig/https/share.creavite.co/4tQont7IqtvSAdv1.gif`)
+   .setDescription("✅ **[Click here](https://discord.com/api/oauth2/authorize?client_id=894294802265411674&permissions=8&scope=bot) to invite the bot.**")
     .setColor("#FF0000")
    helpEmbed  
-   message.react("<a:emoji_81:779961595656536084>")
+   message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
